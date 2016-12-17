@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "710828558409",
+    "firebase_url": "https://geseventm.firebaseio.com",
+    "project_id": "geseventm",
+    "storage_bucket": "geseventm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710828558409:android:bdb6155589acad0f",
+        "android_client_info": {
+          "package_name": "com.globaledgesoft.eventmanagerges"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710828558409-580b570hi0dnuco3tpg2khds0so84v5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnuAHllN7GZfHz_8v_89fAx2w5UCBXS1M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
