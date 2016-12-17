@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">EventManagerGES</string>
-<<<<<<< HEAD
+
     <string name="spinner_title">Select a Role</string>
 
 
@@ -9,10 +9,10 @@
         <item>Event Organizer</item>
         <item>Vendor</item>
     </string-array>
-=======
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_events">EventsActivity</string>
->>>>>>> 2b2b7f82fb2b4e4e6b62980ddab73db9087faad9
+
 </resources>

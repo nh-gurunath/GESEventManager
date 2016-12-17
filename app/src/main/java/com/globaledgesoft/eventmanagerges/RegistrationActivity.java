@@ -55,6 +55,7 @@ public class RegistrationActivity extends Activity implements AdapterView.OnItem
     private ProgressDialog progressDialog;
 
     private DatabaseReference mFirebaseDatabase;
+
     private FirebaseDatabase mFirebaseInstance;
 
     @Override
@@ -81,6 +82,8 @@ public class RegistrationActivity extends Activity implements AdapterView.OnItem
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this,R.layout.support_simple_spinner_dropdown_item,getResources().getStringArray(R.array.role_arrays));
 
         spinner.setAdapter(arrayAdapter);
+
+        spinner.setOnItemSelectedListener(this);
 
         mFirebaseInstance = FirebaseDatabase.getInstance();
 
@@ -154,16 +157,16 @@ public class RegistrationActivity extends Activity implements AdapterView.OnItem
     {
         String items = adapterView.getItemAtPosition(i).toString();
 
-        if(items.equals("User"))
+        if(items == "User")
         {
             role = 0;
         }
-        else if(items.equals("Event Organizer"))
+        else if(items == "Event Organizer")
         {
             role = 1;
 
         }
-        else if(items.equals("Vendor"))
+        else if(items == "Vendor" )
         {
             role = 2;
         }
