@@ -4,11 +4,16 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.Toast;
+
+import com.globaledgesoft.eventmanagerges.Fragment.DonateFragment;
+import com.globaledgesoft.eventmanagerges.Fragment.EventsFragment;
+import com.globaledgesoft.eventmanagerges.Fragment.TimelineFragment;
 
 
 /**
@@ -81,36 +86,48 @@ public class UserFragment extends Fragment {
         eventImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getContext(),"Events",Toast.LENGTH_SHORT).show();
-/*
                 EventsFragment eventsFragment = new EventsFragment();
                 FragmentManager fm = getActivity().getSupportFragmentManager();
                 FragmentTransaction ft = fm.beginTransaction();
-                ft.replace(getView(), eventsFragment, eventsFragment.getClass().getSimpleName());
+                ft.replace(R.id.user_container, eventsFragment, eventsFragment.getClass().getSimpleName());
                 ft.addToBackStack(null);
                 ft.commit();
-*/
             }
         });
 
         volunteerImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                VolunteerFragment volunteerFragment = new VolunteerFragment();
+                FragmentManager fm = getActivity().getSupportFragmentManager();
+                FragmentTransaction ft = fm.beginTransaction();
+                ft.replace(R.id.user_container, volunteerFragment, volunteerFragment.getClass().getSimpleName());
+                ft.addToBackStack(null);
+                ft.commit();
             }
         });
 
         donationImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                DonateFragment donationsFragment = new DonateFragment();
+                FragmentManager fm = getActivity().getSupportFragmentManager();
+                FragmentTransaction ft = fm.beginTransaction();
+                ft.replace(R.id.user_container, donationsFragment, donationsFragment.getClass().getSimpleName());
+                ft.addToBackStack(null);
+                ft.commit();
             }
         });
 
         timelineImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                TimelineFragment timelineFragment = new TimelineFragment();
+                FragmentManager fm = getActivity().getSupportFragmentManager();
+                FragmentTransaction ft = fm.beginTransaction();
+                ft.replace(R.id.user_container, timelineFragment, timelineFragment.getClass().getSimpleName());
+                ft.addToBackStack(null);
+                ft.commit();
             }
         });
 
