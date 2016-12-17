@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context="com.globaledgesoft.eventmanagerges.EventDetailsFragment">
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+
+        <TextView
+            android:text="Swacchh Bharat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/textView5"
+            android:textSize="30sp"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date:  "
+            android:layout_below="@id/textView5"
+            android:id="@+id/date"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:text="25 Dec 2016"
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/date"
+            android:layout_below="@id/textView5"
+            android:id="@+id/textView6"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date"
+            android:text="Location:  "
+            android:id="@+id/loc"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:text="National College Grounds, Bangalore"
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date"
+            android:layout_toRightOf="@id/loc"
+            android:id="@+id/textView7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details:  "
+            android:id="@+id/details"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:text="Gathering at the Ground and cleaning the Basavangudi premises."
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_below="@id/textView7"
+            android:layout_toRightOf="@id/details"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    </RelativeLayout>
+</FrameLayout>

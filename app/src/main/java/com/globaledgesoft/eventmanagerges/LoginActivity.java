@@ -3,16 +3,13 @@ package com.globaledgesoft.eventmanagerges;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.google.firebase.FirebaseApiNotAvailableException;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -52,13 +49,17 @@ public class LoginActivity extends Activity {
 
         btn_signup = (Button)findViewById(R.id.btn_signup);
 
+        DatabaseRef = FirebaseDatabase.getInstance().getReference().child("register");
+
         editText_user_name = (EditText)findViewById(R.id.input_email);
 
         editText_password = (EditText)findViewById(R.id.input_password);
 
         progressDialog = new ProgressDialog(this);
 
+        progressDialog.setMessage("Authenticationg ...");
 
+        progressDialog.setCancelable(false);
 
 
         btn_login.setOnClickListener(new View.OnClickListener() {
@@ -70,61 +71,39 @@ public class LoginActivity extends Activity {
 
                 txt_password = editText_password.getText().toString();
 
-                if(TextUtils.isEmpty(txt_userName))
-                {
-                    editText_user_name.setError("Enter User Name ");
-                }
-                else if(TextUtils.isEmpty(txt_password))
-                {
-                    editText_password.setError("Enter Password");
-                }
-                else
-                {
 
-                    //progressDialog.setMessage("Authenticationg ...");
 
-                  //  progressDialog.setCancelable(false);
+                ValueRef = DatabaseRef.addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
 
-                    DatabaseRef = FirebaseDatabase.getInstance().getReference().child("register");
+                        for (DataSnapshot postSnapshot : dataSnapshot.getChildren()) {
 
-                    ValueRef = DatabaseRef.addValueEventListener(new ValueEventListener() {
-                        @Override
-                        public void onDataChange(DataSnapshot dataSnapshot) {
+                            Register register = postSnapshot.getValue(Register.class);
 
-                            for (DataSnapshot postSnapshot : dataSnapshot.getChildren()) {
-
-                                Register register = postSnapshot.getValue(Register.class);
-
-                                if(txt_userName.equals(register.getEmailID().toString()) && txt_password.equals(register.getPass().toString()))
-                                {
-                                    Toast.makeText(LoginActivity.this,"Login Successfull", Toast.LENGTH_SHORT).show();
-                                    //hideProgressDialog();
-                                    Intent baseIntent = new Intent(LoginActivity.this,BaseActivity.class);
-                                    startActivity(baseIntent);
-                                }
-                                else
-                                {
-                                    Toast.makeText(LoginActivity.this,"Invalid Login Credential", Toast.LENGTH_SHORT).show();
-                                    //hideProgressDialog();
-                                }
-
-                                Log.d(TAG,"User Name : "+register.getEmailID() + "\n "+"Password :"+register.getPass());
+                            if(txt_userName.equals(register.getEmailID().toString()) && txt_password.equals(register.getPass().toString()))
+                            {
+                                Toast.makeText(LoginActivity.this,"Login Successfull", Toast.LENGTH_SHORT).show();
+                                hideProgressDialog();
+                            }
+                            else
+                            {
+                                Toast.makeText(LoginActivity.this,"Invalid Login Credential", Toast.LENGTH_SHORT).show();
+                                hideProgressDialog();
                             }
 
-
-
+                            Log.d(TAG,"User Name : "+register.getEmailID() + "\n "+"Password :"+register.getPass());
                         }
 
-                        @Override
-                        public void onCancelled(DatabaseError databaseError) {
-
-                        }
-                    });
-
-                }
 
 
+                    }
 
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                });
 
 
 
