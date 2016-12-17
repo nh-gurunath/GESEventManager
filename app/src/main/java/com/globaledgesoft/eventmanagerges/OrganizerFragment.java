@@ -90,7 +90,7 @@ public class OrganizerFragment extends Fragment {
                 EventsFragment eventsFragment = new EventsFragment();
                 FragmentManager fm = getActivity().getSupportFragmentManager();
                 FragmentTransaction ft = fm.beginTransaction();
-                ft.replace(R.id.organizer_container, eventsFragment, eventsFragment.getClass().getSimpleName());
+                ft.add(R.id.main_view, eventsFragment, eventsFragment.getClass().getSimpleName());
                 ft.addToBackStack(null);
                 ft.commit();
             }
