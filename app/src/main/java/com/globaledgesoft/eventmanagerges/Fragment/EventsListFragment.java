@@ -1,10 +1,13 @@
 package com.globaledgesoft.eventmanagerges.Fragment;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.TypedValue;
@@ -14,6 +17,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.globaledgesoft.eventmanagerges.OrganizerFragment;
 import com.globaledgesoft.eventmanagerges.R;
 
 import java.util.ArrayList;
@@ -27,7 +31,11 @@ import java.util.List;
  * create an instance of this fragment.
  */
 public class EventsListFragment extends Fragment {
+
     private String TAG = getClass().getSimpleName();
+
+    private static Activity context;
+
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -74,13 +82,15 @@ public class EventsListFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        context = getActivity();
         View view = inflater.inflate(R.layout.fragment_events_list, container, false);
         // buildList(view);
 
         RecyclerView recyclerView = (RecyclerView)view.findViewById(R.id.lst_events);
 
         recyclerView.setLayoutManager(new LinearLayoutManager(recyclerView.getContext()));
-        recyclerView.setAdapter(new SimpleStringRecyclerViewAdapter(getActivity(), getContent()));
+        SimpleStringRecyclerViewAdapter adapter = new SimpleStringRecyclerViewAdapter(getActivity(), getContent());
+        recyclerView.setAdapter(adapter);
 
         return view;
     }
@@ -105,12 +115,12 @@ public class EventsListFragment extends Fragment {
         lst.add("Midnight Marathon");
         return lst;
     }
-    public static class SimpleStringRecyclerViewAdapter
+    public  class SimpleStringRecyclerViewAdapter
             extends RecyclerView.Adapter<SimpleStringRecyclerViewAdapter.ViewHolder> {
         private final TypedValue mTypedValue = new TypedValue();
         private int mBackground;
         private List<String> mValues;
-        public static class ViewHolder extends RecyclerView.ViewHolder {
+        public  class ViewHolder extends RecyclerView.ViewHolder {
             public String mBoundString;
             public final View mView;
             public final ImageView mImageView;
@@ -148,6 +158,12 @@ public class EventsListFragment extends Fragment {
             holder.mView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    /*OrganizerFragment of = new OrganizerFragment();
+                    FragmentManager fm = getActivity().getSupportFragmentManager();
+                    FragmentTransaction ft = fm.beginTransaction();
+                    ft.add(R.id.main_view, of, of.getClass().getSimpleName());
+                    // ft.addToBackStack(null);
+                    ft.commit();*/
                 }
             });
             holder.mImageView.setBackgroundResource(R.drawable.event_logo);
