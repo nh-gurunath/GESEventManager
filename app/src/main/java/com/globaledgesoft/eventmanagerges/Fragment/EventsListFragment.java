@@ -75,10 +75,20 @@ public class EventsListFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_events_list, container, false);
+        // buildList(view);
+
+        RecyclerView recyclerView = (RecyclerView)view.findViewById(R.id.lst_events);
+
+        recyclerView.setLayoutManager(new LinearLayoutManager(recyclerView.getContext()));
+        recyclerView.setAdapter(new SimpleStringRecyclerViewAdapter(getActivity(), getContent()));
+
         return view;
     }
+
     private void buildList(View view){
+
     }
+
     List<String> getContent(){
         List<String> lst = new ArrayList<>();
         lst.add("Blood Donations");
