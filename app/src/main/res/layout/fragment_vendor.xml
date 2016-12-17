@@ -1,10 +1,11 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/user_container"
-    tools:context="com.globaledgesoft.eventmanagerges.UserFragment">
+    android:padding="5dp"
+    android:id="@+id/vendor_container"
+    tools:context="com.globaledgesoft.eventmanagerges.VendorFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,10 +20,11 @@
             android:weightSum="2"
             android:layout_height="200dp">
 
+
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/events"
+                app:srcCompat="@drawable/eventlist"
                 android:id="@+id/imageViewEvent"
                 android:padding="5dp"
                 android:layout_weight="1"
@@ -31,9 +33,9 @@
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageViewVolunteer"
+                android:id="@+id/imageViewTender"
                 android:layout_weight="1"
-                android:src="@drawable/volunteer_icon"
+                android:src="@drawable/tender233"
                 android:padding="5dp"
                 android:clickable="true" />
 
@@ -45,7 +47,7 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="EVENTS"
+                android:text="EVENTS List"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView1"
@@ -54,7 +56,7 @@
                 android:gravity="center" />
 
             <TextView
-                android:text="BE A VOLUNTEER"
+                android:text="Available Tenders"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2"
@@ -96,7 +98,7 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="DONATIONS"
+                android:text="DONATE"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView3"
@@ -115,5 +117,4 @@
         </LinearLayout>
 
     </LinearLayout>
-
 </FrameLayout>
