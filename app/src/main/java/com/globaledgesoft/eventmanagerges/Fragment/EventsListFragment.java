@@ -1,15 +1,23 @@
 package com.globaledgesoft.eventmanagerges.Fragment;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.globaledgesoft.eventmanagerges.R;
 
+import java.util.ArrayList;
+import java.util.List;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
@@ -19,6 +27,7 @@ import com.globaledgesoft.eventmanagerges.R;
  * create an instance of this fragment.
  */
 public class EventsListFragment extends Fragment {
+    private String TAG = getClass().getSimpleName();
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -65,7 +74,78 @@ public class EventsListFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_events_list, container, false);
+        View view = inflater.inflate(R.layout.fragment_events_list, container, false);
+        return view;
+    }
+    private void buildList(View view){
+    }
+    List<String> getContent(){
+        List<String> lst = new ArrayList<>();
+        lst.add("Blood Donations");
+        lst.add("Swatch Bharath");
+        lst.add("Joy of Giving");
+        lst.add("Satsanga");
+        lst.add("Youth for seva");
+        lst.add("Sports meet");
+        lst.add("Bhartnatyam");
+        lst.add("Bhajana program");
+        lst.add("Preaching from Yogi");
+        lst.add("Vanamahotsva");
+        lst.add("Hackathon");
+        lst.add("Midnight Marathon");
+        return lst;
+    }
+    public static class SimpleStringRecyclerViewAdapter
+            extends RecyclerView.Adapter<SimpleStringRecyclerViewAdapter.ViewHolder> {
+        private final TypedValue mTypedValue = new TypedValue();
+        private int mBackground;
+        private List<String> mValues;
+        public static class ViewHolder extends RecyclerView.ViewHolder {
+            public String mBoundString;
+            public final View mView;
+            public final ImageView mImageView;
+            public final TextView mTextView;
+            public ViewHolder(View view) {
+                super(view);
+                mView = view;
+                mImageView = (ImageView) view.findViewById(R.id.avatar);
+                mTextView = (TextView) view.findViewById(android.R.id.text1);
+            }
+            @Override
+            public String toString() {
+                return super.toString() + " '" + mTextView.getText();
+            }
+        }
+        public String getValueAt(int position) {
+            return mValues.get(position);
+        }
+        public SimpleStringRecyclerViewAdapter(Context context, List<String> items) {
+            context.getTheme().resolveAttribute(R.attr.selectableItemBackground, mTypedValue, true);
+            mBackground = mTypedValue.resourceId;
+            mValues = items;
+        }
+        @Override
+        public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+            View view = LayoutInflater.from(parent.getContext())
+                    .inflate(R.layout.list_item, parent, false);
+            view.setBackgroundResource(mBackground);
+            return new ViewHolder(view);
+        }
+        @Override
+        public void onBindViewHolder(final ViewHolder holder, int position) {
+            holder.mBoundString = mValues.get(position);
+            holder.mTextView.setText(mValues.get(position));
+            holder.mView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                }
+            });
+            holder.mImageView.setBackgroundResource(R.drawable.event_logo);
+        }
+        @Override
+        public int getItemCount() {
+            return mValues.size();
+        }
     }
 
     // TODO: Rename method, update argument and hook method into UI event
