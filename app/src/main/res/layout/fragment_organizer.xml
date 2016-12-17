@@ -24,17 +24,19 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/Events"
-                android:id="@+id/imageView1"
+                android:id="@+id/imageViewEvent"
                 android:padding="5dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:clickable="true" />
 
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView2"
+                android:id="@+id/imageViewTender"
                 android:layout_weight="1"
                 android:src="@drawable/icon_tenders2"
-                android:padding="5dp" />
+                android:padding="5dp"
+                android:clickable="true" />
 
         </LinearLayout>
 
@@ -73,17 +75,19 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/Donate"
-                android:id="@+id/imageView3"
+                android:id="@+id/imageViewDonations"
                 android:padding="5dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:clickable="true" />
 
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/timeline_icon"
-                android:id="@+id/imageView4"
+                android:id="@+id/imageViewTimeline"
                 android:padding="5dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:clickable="true" />
 
         </LinearLayout>
 

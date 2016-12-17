@@ -4,9 +4,12 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 
 /**
@@ -22,6 +25,11 @@ public class OrganizerFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+
+    ImageView eventImage;
+    ImageView tenderImage;
+    ImageView donationImage;
+    ImageView timelineImage;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -64,7 +72,47 @@ public class OrganizerFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_organizer, container, false);
+        View view = inflater.inflate(R.layout.fragment_organizer, container, false);
+
+        eventImage = (ImageView) view.findViewById(R.id.imageViewEvent);
+        tenderImage = (ImageView) view.findViewById(R.id.imageViewTender);
+        donationImage = (ImageView) view.findViewById(R.id.imageViewDonations);
+        timelineImage = (ImageView) view.findViewById(R.id.imageViewTimeline);
+
+        eventImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                OrganizerFragment of = new OrganizerFragment();
+                FragmentManager fm = getActivity().getSupportFragmentManager();
+                FragmentTransaction ft = fm.beginTransaction();
+                ft.replace(getView(), new EventsFragment, of.getClass().getSimpleName());
+                ft.addToBackStack(null);
+                ft.commit();
+            }
+        });
+
+        tenderImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        donationImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        timelineImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
