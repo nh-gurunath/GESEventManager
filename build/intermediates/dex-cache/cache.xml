@@ -3,255 +3,264 @@
 
     <item
         is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_45bca258713ef584566547ed69c802800c833c08/classes.dex" />
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-1.3.0_4a1e731974a477c5e678e16d6ad94748b8dae147\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_6fd7cd4fca965f0e572a753c2f2a830e8aeacb24/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4a36600281a648769411ef642c331851732bf29e">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.6.1_5801399ad935c82ba9f841dda0c5d9f3341bbee6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.0_cdab1f2f7a198de16fcfabf7043c42cd519a981d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.6.1_881b981b17e521f42fbc4083d5d5ad9480803bd7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a222585f2be7e64a520d72420b800f4c466a4cad">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bfe788a300e798340b034edf9e5b6e962872e458/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_47a86687a0fa422657670c981bba9ae91a9198d7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.6.1_30317bd9eb61f4c4d5c4c0c03b4a13b87429d0d8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_3d716f6a7cd81eb161f59deb2801386207464ddf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_84f5da751a2ada0619e050d2e238d1299b98f65b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e78697397761a1c8a5aac636eed1c796fc9c5868">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_04abd4517ad33935b534c59ff756acd4dad1a6bd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ac8365c87591065db07f7bac8551504504832cd4">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.6.1_f9663504c791d8ed1e24fd6d78abb450d152b9df/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_6c222b2e75d7568a14b8502d252f6d114548ad19/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_6cc83d639ddbcc0feba3d95d5bb5b1622126b1a8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_85b959c8b3d1beead3f0652bff6c56437286cc8f/classes.dex" />
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_de52a8c3c4ae7d28a4c085c41e5a2276390c00b1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_81e366835a59414fcef46bdf0742e1a1c8964350/classes.dex" />
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.0_1bbe2e7d88e7fcbcd87f76b00f3d598d4cd46b8b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.0_5508d30a5428bec77669b1cc2ae3c5ead9fadade/classes.dex" />
+        sha1="7e52129557bd8762b9b9f2df61c165c844286621">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a70a721a1ec930383e8bf9ae4141b27dad0398cc\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.6.1_ced23c504d0212d8cb8a56f294a9210adc268fe0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_8936bcaa7d48793258ebd133d75e533fceac1c59/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.6.1_57dae1880a440bc229718b47e6fe3153cf8956ac/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.6.1_efb121d0c35e7c165ec5733873db897c15595853/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_2b0dc75d573ec34a634003c3e7d04d502b0589b8/classes.dex" />
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_f62a08295f8a5cedae7ccb10f79510f92fa069bd\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_182c477af05c0d0f540b728c94bc4cf9476e87dd/classes.dex" />
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_9bf5bd4142fe4415be7f9351ad4f640d3f81a7f4\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_9978ea8fe549f1b1c08855560d9ea338679e62ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_b7311a5d6f4d2557e786ce7cbcc010e565d6f7a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.6.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.6.1_db0da7aeeb22de4b1f3372b51214c00608b7a3c5/classes.dex" />
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.6.1_89981cef772dd9c131e3c47890e28d7486b90867\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/jars/classes.jar"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.0_77ddc5ae6753d0120c09a6ba8adb4c7c4bd7962b/classes.dex" />
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.0_1453ef17c879eb477e30e8fdc279fb9f492ea979\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_ec57ba4bc14285eaaec4e17965f5818a9f1baf7e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_cb0bca7a5d49551e3f8e1571e461f27209983c1b/classes.dex" />
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_942ac83f4644367d1d5ec15dbc257a77d01765b1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/gurusaga/GESEventManager/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_042dd6c8f42fb8f140a3efe009a6439558b5c188/classes.dex" />
+        sha1="32da5f7fd385cc92965231ab05c5e12143469247">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1bd23c51bb1f70891e48feeb2dd9c66f7ab0a8fb\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/gurusaga/Downloads/Android-Developer/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ac8365c87591065db07f7bac8551504504832cd4">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.6.1_9d56537b125216163335b3ad452892771ca60fd4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_fda0def0281cc1604bdb3151d9dce45f7b7bceef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.6.1_753aa037280c644ab921552434ea6f992f3be29c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.6.1_960c7cb80a7b63f75c68ae27084b7d05c1afae28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_eeeab5f66b4bb6fbcb60633de72916c00c1a00e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android\adt-bundle-windows-x86_64-20131030\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/home/gurusaga/GESEventManager/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_a66fd6d2d38a7377502992820331e242f32429d2/classes.dex" />
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_ac7d68da659b325a77a7ad635c072eaf4a6e35bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.6.1_e79e67c824e2bfee89873b35e674360edf679b0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_d66645e8627904fe1db0d42d2ff7212d671bfb9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.6.1_e98da8bf3d2ddb1984da7e71d9a84ed12bd10bcc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_b27cdce20f5acae7ba0c1735286691f686c3a2a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.6.1_1e318e08cf7ec0768590a20db8e316491e545cf1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_6bed11a365d772b0a32a7acd8ea30732c5444ae1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_57cba78e1f900617a32cb65b398815cd02d88acd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.0_ede87541e937a02d649536124599ebd7802239a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_6ac8fcbf854bf39016e94dd3a9ef891de066a8e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="F:\Android_Studio_Workspace\GES_Cloud\GESEventManager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.6.1_ccda923401bee6baf48edb50f1ec2fd002f50fbd\classes.dex" />
     </item>
 
 </items>
