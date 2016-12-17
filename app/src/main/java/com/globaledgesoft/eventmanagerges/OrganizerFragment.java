@@ -4,12 +4,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 
 /**
@@ -75,19 +74,23 @@ public class OrganizerFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_organizer, container, false);
 
         eventImage = (ImageView) view.findViewById(R.id.imageViewEvent);
-        tenderImage = (ImageView) view.findViewById(R.id.imageViewTender);
+        tenderImage = (ImageView) view.findViewById(R.id.imageViewVolunteer);
         donationImage = (ImageView) view.findViewById(R.id.imageViewDonations);
         timelineImage = (ImageView) view.findViewById(R.id.imageViewTimeline);
 
         eventImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                OrganizerFragment of = new OrganizerFragment();
+                Toast.makeText(getContext(),"Events",Toast.LENGTH_SHORT).show();
+
+/*
+                EventsFragment eventsFragment = new EventsFragment();
                 FragmentManager fm = getActivity().getSupportFragmentManager();
                 FragmentTransaction ft = fm.beginTransaction();
-                ft.replace(getView(), new EventsFragment, of.getClass().getSimpleName());
+                ft.replace(getView(), eventsFragment, eventsFragment.getClass().getSimpleName());
                 ft.addToBackStack(null);
                 ft.commit();
+*/
             }
         });
 

@@ -23,7 +23,7 @@
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/Events"
+                app:srcCompat="@drawable/events"
                 android:id="@+id/imageViewEvent"
                 android:padding="5dp"
                 android:layout_weight="1"
@@ -32,7 +32,7 @@
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageViewTender"
+                android:id="@+id/imageViewVolunteer"
                 android:layout_weight="1"
                 android:src="@drawable/icon_tenders2"
                 android:padding="5dp"
@@ -74,7 +74,7 @@
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/Donate"
+                app:srcCompat="@drawable/donate"
                 android:id="@+id/imageViewDonations"
                 android:padding="5dp"
                 android:layout_weight="1"
