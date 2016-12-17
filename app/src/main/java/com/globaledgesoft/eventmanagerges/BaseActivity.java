@@ -1,10 +1,13 @@
 package com.globaledgesoft.eventmanagerges;
 
 import android.os.Bundle;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
@@ -44,7 +47,15 @@ public class BaseActivity extends AppCompatActivity {
             setupDrawerContent(navigationView);
         }
 
-        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
+        CoordinatorLayout frame = (CoordinatorLayout) findViewById(R.id.main_content);
+
+        OrganizerFragment of = new OrganizerFragment();
+        FragmentManager fm = getSupportFragmentManager();
+        FragmentTransaction ft = fm.beginTransaction();
+        ft.add(R.id.main_view, of, of.getClass().getSimpleName());
+        ft.commit();
+
+       /* ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
         if (viewPager != null) {
             // setupViewPager(viewPager);
         }
@@ -59,7 +70,7 @@ public class BaseActivity extends AppCompatActivity {
         });
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
-        tabLayout.setupWithViewPager(viewPager);
+        tabLayout.setupWithViewPager(viewPager);*/
     }
 
 
