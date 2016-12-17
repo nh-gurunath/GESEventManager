@@ -17,6 +17,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.globaledgesoft.eventmanagerges.EventDetailsFragment;
 import com.globaledgesoft.eventmanagerges.OrganizerFragment;
 import com.globaledgesoft.eventmanagerges.R;
 
@@ -158,12 +159,12 @@ public class EventsListFragment extends Fragment {
             holder.mView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    /*OrganizerFragment of = new OrganizerFragment();
+                    EventDetailsFragment of = new EventDetailsFragment();
                     FragmentManager fm = getActivity().getSupportFragmentManager();
                     FragmentTransaction ft = fm.beginTransaction();
                     ft.add(R.id.main_view, of, of.getClass().getSimpleName());
                     // ft.addToBackStack(null);
-                    ft.commit();*/
+                    ft.commit();
                 }
             });
             holder.mImageView.setBackgroundResource(R.drawable.event_logo);

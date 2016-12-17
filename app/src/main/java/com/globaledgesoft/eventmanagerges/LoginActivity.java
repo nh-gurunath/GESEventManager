@@ -71,8 +71,6 @@ public class LoginActivity extends Activity {
 
                 txt_password = editText_password.getText().toString();
 
-
-
                 ValueRef = DatabaseRef.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
@@ -84,19 +82,19 @@ public class LoginActivity extends Activity {
                             if(txt_userName.equals(register.getEmailID().toString()) && txt_password.equals(register.getPass().toString()))
                             {
                                 Toast.makeText(LoginActivity.this,"Login Successfull", Toast.LENGTH_SHORT).show();
+                                Intent intent = new Intent(LoginActivity.this,BaseActivity.class);
+                                startActivity(intent);
+                                finish();
                                 hideProgressDialog();
                             }
                             else
                             {
-                                Toast.makeText(LoginActivity.this,"Invalid Login Credential", Toast.LENGTH_SHORT).show();
+                                // Toast.makeText(LoginActivity.this,"Invalid Login Credential", Toast.LENGTH_SHORT).show();
                                 hideProgressDialog();
                             }
 
                             Log.d(TAG,"User Name : "+register.getEmailID() + "\n "+"Password :"+register.getPass());
                         }
-
-
-
                     }
 
                     @Override
